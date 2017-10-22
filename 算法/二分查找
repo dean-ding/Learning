@@ -1,0 +1,35 @@
+`二分查找算法：又称为折半查找，是一种效率较高的查找方法
+基本要求：
+    1、列表中必须采用顺序存储结构
+    2、必须按照关键字大小有序排序`
+
+`代码展示：`
+
+private static final int INVALID = -1;
+
+public void static main(int[] args){
+    int[] array = {1,2,3,4,6,7,8,9,10};
+    int index = binarySearch(array, 4);
+    if(index == INVALID){
+        System.out.println("not exist!!!S");
+    }else{
+        System.out.println(String.format("index = %d", index));
+    }
+}
+    
+public static int binarySearch(int[] array,int des){
+    int low = 0;
+    int high = array.length - 1;
+    while(low < high){
+        int middle = (high - low) / 2;
+        int value = array[middle];
+        if(des == value){
+            return middle;
+        }else if(value < des){
+            low = middle + 1;
+        }else{
+            high = middle - 1;
+        }
+    }
+    return INVALID;
+}
