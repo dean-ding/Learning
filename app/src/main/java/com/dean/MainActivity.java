@@ -1,11 +1,15 @@
 package com.dean;
 
 import android.Manifest;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.PermissionChecker;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.Toast;
+
+import com.dean.ad.AdActivity;
 
 public class MainActivity extends AppCompatActivity
 {
@@ -26,6 +30,15 @@ public class MainActivity extends AppCompatActivity
         {
             Toast.makeText(this, "已申请到权限", Toast.LENGTH_SHORT).show();
         }
+
+        findViewById(R.id.ad_button).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(MainActivity.this, AdActivity.class));
+            }
+        });
     }
 
     private boolean checkPermission(String... permissions)
