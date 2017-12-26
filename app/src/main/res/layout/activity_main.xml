@@ -18,8 +18,29 @@
 
     <Button
         android:id="@+id/ad_button"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="ad"/>
+
+    <Button
+        android:id="@+id/constraint_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="constraint"
+        app:layout_constraintLeft_toRightOf="@id/ad_button"/>
+
+    <Button
+        android:id="@+id/server_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="server"
+        app:layout_constraintLeft_toRightOf="@id/constraint_button"/>
+
+    <Button
+        android:id="@+id/swipback_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="SwipBack"
+        app:layout_constraintLeft_toRightOf="@id/server_button"/>
 
 </android.support.constraint.ConstraintLayout>

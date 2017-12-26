@@ -10,6 +10,9 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.dean.ad.AdActivity;
+import com.dean.constraint.ConstraintLayoutActivity;
+import com.dean.server.ServerActivity;
+import com.dean.swipbacklayout.TestSwipeBackActivity;
 
 public class MainActivity extends AppCompatActivity
 {
@@ -37,6 +40,31 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View v)
             {
                 startActivity(new Intent(MainActivity.this, AdActivity.class));
+            }
+        });
+
+        findViewById(R.id.constraint_button).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(MainActivity.this, ConstraintLayoutActivity.class));
+            }
+        });
+        findViewById(R.id.server_button).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(MainActivity.this, ServerActivity.class));
+            }
+        });
+        findViewById(R.id.swipback_button).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(MainActivity.this, TestSwipeBackActivity.class));
             }
         });
     }

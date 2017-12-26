@@ -1,11 +1,20 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+    <!--Base application theme. -->
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
     </style>
 
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="@style/AppBaseTheme">
+    </style>
+
+    <!-- Application theme. -->
+    <style name="subPageStyle" parent="@style/AppTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="mainPageStyle" parent="AppTheme">
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
 </resources>

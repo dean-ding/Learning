@@ -8,6 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/princily/princily.iml" filepath="$PROJECT_DIR$/princily/princily.iml" />
       <module fileurl="file://$PROJECT_DIR$/princily2/princily2.iml" filepath="$PROJECT_DIR$/princily2/princily2.iml" />
       <module fileurl="file://$PROJECT_DIR$/principle/principle.iml" filepath="$PROJECT_DIR$/principle/principle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serverlibrary/serverlibrary.iml" filepath="$PROJECT_DIR$/serverlibrary/serverlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swipback/swipback.iml" filepath="$PROJECT_DIR$/swipback/swipback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/switchbacklayout/switchbacklayout.iml" filepath="$PROJECT_DIR$/switchbacklayout/switchbacklayout.iml" />
     </modules>
   </component>
 </project>

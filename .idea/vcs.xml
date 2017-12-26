@@ -5,5 +5,8 @@
     <mapping directory="$PROJECT_DIR$/app" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/math" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/princily2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/serverlibrary" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/swipback" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/switchbacklayout" vcs="svn" />
   </component>
 </project>
