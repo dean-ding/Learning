@@ -5,19 +5,17 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="$USER_HOME$/gradle-3.3" />
-        <option name="gradleJvm" value="1.8" />
+        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-4.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/math" />
-            <option value="$PROJECT_DIR$/princily" />
             <option value="$PROJECT_DIR$/princily2" />
-            <option value="$PROJECT_DIR$/principle" />
             <option value="$PROJECT_DIR$/serverlibrary" />
             <option value="$PROJECT_DIR$/swipback" />
-            <option value="$PROJECT_DIR$/switchbacklayout" />
+            <option value="$PROJECT_DIR$/thinkandroid" />
+            <option value="$PROJECT_DIR$/vitamio" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

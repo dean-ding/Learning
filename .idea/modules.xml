@@ -5,12 +5,11 @@
       <module fileurl="file://$PROJECT_DIR$/Learning.iml" filepath="$PROJECT_DIR$/Learning.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/math/math.iml" filepath="$PROJECT_DIR$/math/math.iml" />
-      <module fileurl="file://$PROJECT_DIR$/princily/princily.iml" filepath="$PROJECT_DIR$/princily/princily.iml" />
       <module fileurl="file://$PROJECT_DIR$/princily2/princily2.iml" filepath="$PROJECT_DIR$/princily2/princily2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/principle/principle.iml" filepath="$PROJECT_DIR$/principle/principle.iml" />
       <module fileurl="file://$PROJECT_DIR$/serverlibrary/serverlibrary.iml" filepath="$PROJECT_DIR$/serverlibrary/serverlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/swipback/swipback.iml" filepath="$PROJECT_DIR$/swipback/swipback.iml" />
-      <module fileurl="file://$PROJECT_DIR$/switchbacklayout/switchbacklayout.iml" filepath="$PROJECT_DIR$/switchbacklayout/switchbacklayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thinkandroid/thinkandroid.iml" filepath="$PROJECT_DIR$/thinkandroid/thinkandroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vitamio/vitamio.iml" filepath="$PROJECT_DIR$/vitamio/vitamio.iml" />
     </modules>
   </component>
 </project>

@@ -7,6 +7,7 @@
     <mapping directory="$PROJECT_DIR$/princily2" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/serverlibrary" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/swipback" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/switchbacklayout" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/thinkandroid" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vitamio" vcs="Git" />
   </component>
 </project>
