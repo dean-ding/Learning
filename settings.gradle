@@ -1,1 +1,1 @@
-include ':math', ':principle', ':principle', ':princily', ':princily2', ':app', ':serverlibrary', ':switchbacklayout', ':swipback'
+include ':math', ':princily2', ':app', ':serverlibrary', ':swipback', ':vitamio', ':thinkandroid'

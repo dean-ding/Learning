@@ -8,7 +8,18 @@
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
     <uses-permission android:name="android.permission.RECEIVE_SMS"/>
     <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <!--使用蓝牙所需要的权限-->
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <!--使用扫描和设置蓝牙的权限（申明这一个权限必须申明上面一个权限）-->
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <!-- Needed only if your app targets Android 5.0 (API level 21) or higher. -->
+    <uses-feature android:name="android.hardware.location.gps"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 
     <application
         android:name=".MyApplication"
@@ -33,6 +44,36 @@
         <activity android:name=".server.ServerActivity"/>
         <activity
             android:name=".swipbacklayout.TestSwipeBackActivity"
+            android:theme="@style/subPageStyle"/>
+        <activity
+            android:name=".viewdrag.ViewDragActivity"
+            android:theme="@style/subPageStyle"/>
+        <activity
+            android:name=".live.LiveActivity"
+            android:theme="@style/subPageStyle"/>
+        <activity
+            android:name=".rxjava.CountDownActivity"
+            android:theme="@style/subPageStyle"/>
+        <activity
+            android:name=".gifview.GifActivity"
+            android:theme="@style/subPageStyle"/>
+        <activity
+            android:name=".fresco.FrescoActivity"
+            android:theme="@style/subPageStyle"/>
+        <activity android:name=".cat.activity.SplashActivity"/>
+        <activity android:name=".cat.activity.ThinkAndroidMainActivity"/>
+        <activity android:name=".cat.activity.ThinkAndroidCacheActivtiy"/>
+        <activity android:name=".cat.activity.ThinkAndroidDBActivtiy"/>
+        <activity android:name=".cat.activity.ThinkAndroidImageCacheActivtiy"/>
+        <activity android:name=".cat.activity.ThinkAndroidMvcActivtiy"/>
+        <activity android:name=".cat.activity.ThinkAndroidHttpActivtiy"/>
+        <activity android:name=".cat.activity.ThinkAndroidSimpleDwonLoadActivtiy"/>
+        <activity android:name=".cat.activity.ThinkAndroidSimpleTwoDwonLoadActivtiy"/>
+        <activity android:name=".cat.activity.ThinkAndroidDwonLoadActivtiy"/>
+        <activity android:name=".cat.activity.ThinkAndroidMultiThreadDwonLoadActivtiy"/>
+        <activity android:name=".cat.activity.ThinkAndroidOtherActivtiy"/>
+        <activity
+            android:name=".bluetooth.BlueToothActivity"
             android:theme="@style/subPageStyle"/>
     </application>
 

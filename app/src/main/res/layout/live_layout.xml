@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dean.live.LiveActivity">
+
+    <EditText
+        android:id="@+id/live_url"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/androidColorA"
+        android:text="rtmp://10.10.15.90/dhg/myLive"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/live_play"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="play"
+        app:layout_constraintLeft_toRightOf="@id/live_url"/>
+
+    <VideoView
+        android:id="@+id/live_video"
+        android:layout_width="368dp"
+        android:layout_height="400dp"
+        android:background="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@id/live_play"/>
+
+</android.support.constraint.ConstraintLayout>

@@ -17,4 +17,6 @@
     <style name="mainPageStyle" parent="AppTheme">
         <item name="android:windowIsTranslucent">false</item>
     </style>
+
+    <style name="Widget.GifView" parent="@android:style/Widget"/>
 </resources>
