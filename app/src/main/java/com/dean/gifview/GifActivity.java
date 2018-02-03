@@ -36,10 +36,16 @@ public class GifActivity extends SwipeBackActivity
         verifyStoragePermissions(this);
         //mGifView = (GifView) findViewById(R.id.gif_view);
 
+        loadGif("test.gif");
+        loadGif("test1.gif");
+    }
+
+    private void loadGif(String fileName)
+    {
         try
         {
             File gifFile = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + "SuperLivePlus" + File.separator + "Ads" + File.separator +
-                    "test.gif");
+                    fileName);
             GifDrawable gifFromFile = new GifDrawable(gifFile);
             mGifView.setImageDrawable(gifFromFile);
         }

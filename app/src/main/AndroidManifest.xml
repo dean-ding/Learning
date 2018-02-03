@@ -75,6 +75,7 @@
         <activity
             android:name=".bluetooth.BlueToothActivity"
             android:theme="@style/subPageStyle"/>
+        <activity android:name=".BaseActivity"/>
     </application>
 
 </manifest>
